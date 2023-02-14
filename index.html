@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+</head>
+
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil-eu.jpg" alt="foto de perfil">
+            <h1 class="nome">Andressa Lima</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Web</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de rede sociais">
+                </li>
+
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Hi! My name is <span>Andressa Lima</span>, Welcome to the page!</p>
+
+                        <p>Sou uma pessoa apaixonada pela <span>programação</span> desde o primeiro contato com a lógica
+                            da programação, tudo que está no passo a passo da criação dos códigos sempre me encanta, ver
+                            e entender como funciona. Desde então sempre procurei correr atrás do sonho de trabalhar com
+                            programação e atualmente comecei a colocar esse sonho em prática estudando <span>HTML, CSS e
+                            JavaScript.</span> Gosto muito de café e gatos (até demais), e meus principais hobbies
+                            são jogar Super Mario, ver animes, comédia romântica e séries.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.canva.com/design/DAFaZEqGtnM/view" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/andressa-lima-b18988253/" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/andressa-l" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
